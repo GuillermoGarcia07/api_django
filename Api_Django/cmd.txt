@@ -1,0 +1,26 @@
+Para instalar virtualenv e Python
+python3 -m pip install --upgrade pip
+
+para crear un virtualenv en el proyecto
+virtualenv -p python3 env
+
+se activa el virtualenv
+.\env\Scripts\activate
+
+despues se instala la versio a trabajar
+pip install Django==laversion
+
+para crear proyecto en django
+django-admin startproject nombre_proyecto
+
+despues se crea la app
+django-admin startapp nombre
+
+-------------------------------------------------
+
+instalar mysql
+pip install mysqlclient mysql
+
+migraciones
+python manage.py makemigrations
+python manage.py migrate
